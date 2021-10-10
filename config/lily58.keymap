@@ -29,7 +29,7 @@
 &bt BT_CLR &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4                &out OUT_USB &out OUT_BLE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE &kp C_PP
 &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                   &kp ASTERISK &kp N7        &kp N8 &kp N9 &kp MINUS     &kp PG_UP
 &kp CARET  &kp AMPS         &kp ASTERISK      &kp LPAR          &kp RPAR     &kp TILDE                   &kp SLASH    &kp N4        &kp N5 &kp N6 &kp PLUS      &kp PG_DN
-&none      &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &none        &none         &none  &none  &kp N0       &kp N1        &kp N2 &kp N3 &kp DOT       &none
+&none      &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &none        &none         &none  &none  &kp N0       &kp N1        &kp N2 &kp N3 &kp DOT       &kp PSCRN
                                               &trans            &trans       &trans        &trans &trans &trans       &trans        &trans
             >;
         };
