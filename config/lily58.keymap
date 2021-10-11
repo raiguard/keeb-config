@@ -30,22 +30,22 @@
 
         lower_layer {
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                &out OUT_USB &out OUT_BLE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE &kp C_PP
-&kp GRAVE  &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PRCNT                   &kp ASTERISK &kp N7        &kp N8        &kp N9        &kp MINUS  &kp PG_UP
-&kp CARET  &kp AMPS     &kp ASTERISK &kp LPAR     &kp RPAR     &kp TILDE                   &kp SLASH    &kp N4        &kp N5        &kp N6        &kp PLUS   &kp PG_DN
-&none      &kp EQUAL    &kp PLUS     &kp MINUS    &kp UNDER    &none         &none  &none  &kp N0       &kp N1        &kp N2        &kp N3        &kp DOT    &kp PSCRN
-                                     &trans       &trans       &trans        &trans &trans &trans       &trans        &trans
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                &out OUT_USB &out OUT_BLE &none  &none  &none     &kp EQUAL
+&kp GRAVE  &kp EXCL     &kp AT       &kp HASH     &kp DOLLAR   &kp PRCNT                   &kp ASTERISK &kp N7       &kp N8 &kp N9 &kp MINUS &kp MINUS
+&kp CARET  &kp AMPS     &kp ASTERISK &kp LPAR     &kp RPAR     &kp TILDE                   &kp SLASH    &kp N4       &kp N5 &kp N6 &kp PLUS  &kp PG_DN
+&none      &kp EQUAL    &kp PLUS     &kp MINUS    &kp UNDER    &none         &none  &none  &none        &kp N1       &kp N2 &kp N3 &kp DOT   &kp PSCRN
+                                     &trans       &trans       &trans        &trans &trans &kp N0       &trans       &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&none  &none   &none   &none   &none   &none                 &none    &none    &none  &none     &none   &none
-&trans &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                &none    &none    &none  &none     &none   &none
-&trans &kp F6  &kp F7  &kp F8  &kp F9  &kp F10               &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp DEL &none
-&trans &kp F11 &kp F12 &none   &none   &none   &none  &none  &none    &none    &none  &none     &none   &none
-                       &none   &trans  &none   &none  &none  &none    &none    &none
+&kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &kp C_PP &none   &none                  &none    &none     &none     &none     &none   &none
+&trans       &kp F1       &kp F2     &kp F3   &kp F4  &kp F5                 &kp HOME &kp PG_DN &kp PG_UP &kp END   &none   &none
+&trans       &kp F6       &kp F7     &kp F8   &kp F9  &kp F10                &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp DEL &none
+&trans       &kp F11      &kp F12    &none    &none   &none    &none  &none  &none    &none     &none     &none     &none   &none
+                                     &none    &trans  &none    &none  &none  &none    &none     &none
             >;
         };
     };
-};
+};a
