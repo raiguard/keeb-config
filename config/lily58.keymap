@@ -41,21 +41,20 @@
 
         default_layer {
             bindings = <
-&none &none       &none      &none       &none         &none                                   &none         &none       &none       &none      &none          &none
-&none &kp Q       &kp W      &kp E       &kp R         &kp T                                   &kp Y         &kp U       &kp I       &kp O      &kp P          &none
-&none &mt LMETA A &mt LALT S &mt LCTRL D &mt LSHFT F   &kp G                                   &kp M         &mt LSHFT J &mt LCTRL K &mt LALT L &mt LMETA SEMI &none
-&none &kp Z       &kp X      &kp C       &kp V         &kp B       &none         &none         &kp N         &kp M       &kp COMMA   &kp DOT    &kp FSLH       &none
-                             &none       &lt MEDIA ESC &lt NAV TAB &lt MOUSE RET &lt SYM SPACE &lt NUM BSPC  &mo FUN     &none
+&none               &none               &none               &none               &none               &none                                                      &none                &none               &none               &none               &none               &none
+&none               &kp Q               &kp W               &kp E               &kp R               &kp T                                                      &kp Y                &kp U               &kp I               &kp O               &kp P               &none
+&none               &mt LMETA A         &mt LALT S          &mt LCTRL D         &mt LSHFT F         &kp G                                                      &kp M                &mt LSHFT J         &mt LCTRL K         &mt LALT L          &mt LMETA SEMI      &none
+&none               &kp Z               &kp X               &kp C               &kp V               &kp B               &none               &none              &kp N                &kp M               &kp COMMA           &kp DOT             &kp FSLH            &none
+                                                            &none               &lt MEDIA ESC       &lt NAV TAB         &lt MOUSE SPACE     &lt SYM RET        &lt NUM BSPC         &mo FUN             &none
            >;
         };
-    };
         media_layer {
             bindings = <
 &none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
-&none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
-&none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
-&none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
-                                                            &none               &none               &none               &none               &none               &none               &none               &none
+&none               &none               &none               &none               &none               &none                                                       &kp K_REDO          &kp K_PASTE         &kp K_COPY          &kp K_CUT           &none               &none
+&none               &kp LMETA           &kp LALT            &kp LCTRL           &kp LSHFT           &none                                                       &kp LEFT            &kp DOWN            &kp UP              &kp RIGHT           &kp CAPS            &none
+&none               &none               &none               &none               &none               &none               &none               &none               &kp HOME            &kp PG_DN           &kp PG_UP           &kp END             &kp INSERT          &none
+                                                            &none               &none               &none               &none               &kp RET             &kp BSPC            &none               &none
             >;
         };
         nav_layer {
@@ -103,4 +102,5 @@
                                                             &none               &none               &none               &none               &none               &none               &none               &none
             >;
         };
+    };
 };
