@@ -14,7 +14,7 @@
 #define SYM 1
 #define NAV 2
 #define FUN 3
-#define META 4
+#define MEDIA 4
 
 &lt {
     flavor = "balanced";
@@ -43,7 +43,7 @@
 &none                &kp Q              &kp W               &kp E               &kp R               &kp T                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &kp MINUS
 &none                &hm LMETA A        &hm LALT S          &hm LCTRL D         &hm LSHFT F         &kp G                                                       &kp H               &hm LSHFT J         &hm LCTRL K         &hm LALT L          &hm LMETA SEMI      &kp SQT
 &none                &kp Z              &kp X               &kp C               &kp V               &kp B               &kp LBKT            &kp RBKT            &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &kp RSHFT
-                                                            &none               &kp ESC             &lt META TAB        &lt NAV RET         &lt SYM SPACE       &lt FUN BSPC        &kp DEL             &none
+                                                            &none               &kp ESC             &lt MEDIA TAB       &lt NAV RET         &lt SYM SPACE       &lt FUN BSPC        &kp DEL             &none
             >;
         };
         sym_layer {
@@ -73,7 +73,7 @@
                                                             &none               &none               &none               &none               &none               &none               &none               &none
             >;
         };
-        meta_layer {
+        media_layer {
             bindings = <
 &none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
 &none               &bt BT_SEL 0        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_SEL 3        &bt BT_SEL 4                                                &none               &none               &none               &none               &none               &none
