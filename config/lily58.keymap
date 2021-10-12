@@ -23,7 +23,7 @@
     quick_tap_ms = <100>;
     tapping-term-ms = <200>;
     retro-tap;
-}
+};
 
 / {
     keymap {
