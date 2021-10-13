@@ -18,7 +18,7 @@
 
 &lt {
     flavor = "balanced";
-    quick_tap_ms = <100>;
+    quick-tap-ms = <100>;
     tapping-term-ms = <200>;
     retro-tap;
 };
@@ -30,7 +30,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick_tap_ms = <0>;
+            quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
