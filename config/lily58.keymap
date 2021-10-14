@@ -17,7 +17,7 @@
 #define MEDIA 4
 
 &lt {
-    flavor = "hold-preferred";
+    flavor = "balanced";
     quick-tap-ms = <100>;
     tapping-term-ms = <200>;
     retro-tap;
