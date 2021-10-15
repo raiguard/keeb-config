@@ -25,7 +25,7 @@
 
 / {
     behaviors {
-        hma: homerow_mods_a {
+        hml: homerow_mods_long {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
@@ -35,7 +35,7 @@
             bindings = <&kp>, <&kp>;
             retro-tap;
         };
-        hmf: homerow_mods_f {
+        hms: homerow_mods_short {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
@@ -62,7 +62,7 @@
             bindings = <
 &none                &none              &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
 &none                &kp Q              &kp W               &kp E               &kp R               &kp T                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &none
-&none                &hma LMETA A       &hm LALT S          &hm LCTRL D         &hmf LSHFT F        &kp G                                                       &kp H               &hm LSHFT J         &hm LCTRL K         &hm LALT L          &hm LMETA SEMI      &none
+&none                &hml LMETA A       &hm LALT S          &hm LCTRL D         &hms LSHFT F        &kp G                                                       &kp H               &hm LSHFT J         &hm LCTRL K         &hm LALT L          &hm LMETA SEMI      &none
 &none                &kp Z              &kp X               &kp C               &kp V               &kp B               &kp LBKT            &kp RBKT            &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &none
                                                             &none               &kp ESC             &lt MEDIA TAB       &lt NAV RET         &lt SYM SPACE       &lt FUN BSPC        &kp DEL             &none
             >;
@@ -71,7 +71,7 @@
             bindings = <
 &none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
 &none               &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                                                      &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &none
-&none               &hma LMETA DOLLAR   &hm LALT PLUS       &hm LCTRL LPAR      &hmf LSHFT RPAR     &kp AT                                                      &kp PIPE            &hm LSHFT MINUS     &hm LCTRL EQUAL     &hm LALT UNDER      &hm LMETA STAR      &none
+&none               &hml LMETA DOLLAR   &hm LALT PLUS       &hm LCTRL LPAR      &hms LSHFT RPAR     &kp AT                                                      &kp PIPE            &hm LSHFT MINUS     &hm LCTRL EQUAL     &hm LALT UNDER      &hm LMETA STAR      &none
 &none               &kp EXCL            &kp HASH            &kp LBRC            &kp RBRC            &kp TILDE           &none               &none               &kp AMPS            &kp LBKT            &kp RBKT            &kp PRCNT           &kp CARET           &none
                                                             &none               &kp GRAVE           &kp SQT             &kp DQT             &none               &none               &none               &none
             >;
