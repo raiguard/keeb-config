@@ -63,8 +63,8 @@
 &none                &none              &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
 &none                &kp Q              &kp W               &kp E               &kp R               &kp T                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &none
 &none                &hml LMETA A       &hm LALT S          &hm LCTRL D         &hms LSHFT F        &kp G                                                       &kp H               &hm LSHFT J         &hm LCTRL K         &hm LALT L          &hm LMETA SEMI      &none
-&none                &kp Z              &kp X               &kp C               &kp V               &kp B               &kp LBKT            &kp RBKT            &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &none
-                                                            &none               &kp ESC             &lt MEDIA TAB       &lt NAV RET         &lt SYM SPACE       &lt FUN BSPC        &kp DEL             &none
+&none                &kp Z              &kp X               &kp C               &kp V               &kp B               &tog GAME           &none               &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &none
+                                                            &none               &kp ESC             &lt MEDIA TAB       &lt NAV SPACE       &lt SYM RET         &lt FUN BSPC        &kp DEL             &none
             >;
         };
         sym_layer {
