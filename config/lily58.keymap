@@ -15,6 +15,7 @@
 #define NAV 2
 #define FUN 3
 #define MEDIA 4
+#define GAME 5
 
 &lt {
     flavor = "balanced";
@@ -33,7 +34,6 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            retro-tap;
         };
         hms: homerow_mods_short {
             compatible = "zmk,behavior-hold-tap";
@@ -43,7 +43,6 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            retro-tap;
         };
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -53,7 +52,27 @@
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            retro-tap;
+        };
+    };
+    combos {
+        compatible = "zmk,combos";
+        combo_t {
+            timeout-ms = <50>;
+            key-positions = <16 17>;
+            bindings = <&kp T>;
+            layers = <GAME>;
+        };
+        combo_g {
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp G>;
+            layers = <GAME>;
+        };
+        combo_b {
+            timeout-ms = <50>;
+            key-positions = <40 41>;
+            bindings = <&kp B>;
+            layers = <GAME>;
         };
     };
     keymap {
@@ -101,6 +120,15 @@
 &none               &out OUT_USB        &out OUT_BLE        &bt BT_CLR          &none               &none                                                       &kp C_PREV          &kp C_VOL_DN        &kp C_VOL_UP        &kp C_NEXT          &none               &none
 &none               &none               &none               &bt BT_CLR          &none               &none               &none               &none               &none               &none               &none               &none               &none               &none
                                                             &none               &none               &none               &none               &kp C_PP            &kp C_STOP          &kp C_MUTE          &none
+            >;
+        };
+        game_layer {
+            bindings = <
+&none               &none               &none               &none               &none               &none                                                       &none               &none               &none               &none               &none               &none
+&none               &kp LALT            &kp Q               &kp W               &kp E               &kp R                                                       &kp Y               &kp U               &kp I               &kp O               &kp P               &none
+&none               &kp LSHFT           &kp A               &kp S               &kp D               &kp F                                                       &kp H               &kp J               &kp K               &kp L               &kp SEMI            &none
+&none               &kp LCTRL           &kp Z               &kp X               &kp C               &kp V               &tog GAME           &none               &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLSH           &none
+                                                            &none               &kp ESC             &lt SYM TAB         &kp SPACE           &none               &none               &none               &none
             >;
         };
     };
