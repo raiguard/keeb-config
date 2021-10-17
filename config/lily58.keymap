@@ -92,7 +92,7 @@
 &none               &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                                                      &kp N6              &kp N7              &kp N8              &kp N9              &kp N0              &none
 &none               &hml LMETA DOLLAR   &hm LALT PLUS       &hm LCTRL LPAR      &hms LSHFT RPAR     &kp AT                                                      &kp PIPE            &hm LSHFT MINUS     &hm LCTRL EQUAL     &hm LALT UNDER      &hm LMETA STAR      &none
 &none               &kp EXCL            &kp HASH            &kp LBRC            &kp RBRC            &kp TILDE           &none               &none               &kp AMPS            &kp LBKT            &kp RBKT            &kp PRCNT           &kp CARET           &none
-                                                            &none               &kp GRAVE           &kp SQT             &kp DQT             &none               &BSLH               &none               &none
+                                                            &none               &kp GRAVE           &kp SQT             &kp DQT             &none               &kp BSLH               &none               &none
             >;
     	};
         nav_layer {
